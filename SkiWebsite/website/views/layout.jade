@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title='Ski Timer'
+    link(rel='stylesheet', href='/stylesheets/fonts.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+  body
+    div(class='navBarWrapper')
+      div(class='navFlexSpacer')
+      a(class='button' href='/setname') Add Your Name
+      a(class='button' id='coach' href='/coachlogin') Coach Login
+    div(class='contentContainerWrapper')
+      div(class='contentContainer')
+          div(class='links') Useful Links:
+            a(href='/') Most Recent
+            br
+            a(href='/top') Lowest Time
+            a(href='/stats') Cool Stats
+          div(class='content')
+            block content

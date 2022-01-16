@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  table
+    tr
+      th #
+      th Name
+      th Time
+      th Start
+    - for(var i = 0; i < times.length; i++) {
+    - if(i<10) {
+    tr(class='special')
+      td=times[i].number
+      td=times[i].racer_name
+      td=times[i].net_time.substr(3,9)
+      td=times[i].start_time.toString().substr(16,5)
+    - }
+    - else {
+    tr
+      td=times[i].number
+      td=times[i].racer_name
+      td=times[i].net_time.substr(3,9)
+      td=times[i].start_time.toString().substr(16,5)
+    - }}

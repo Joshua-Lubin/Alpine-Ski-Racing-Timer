@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  div(class='stats') Admin Panel
+  form
+    input(type='submit' value='Reset Times')
+  form
+    input(type='submit' value='Reset Names')
+  form
+    select
+      option(disabled selected) Choose a Name
+      option Joshua
+      option Alex
+    input(type='submit' value='Delete Name')
+  form
+    input(type='submit' value='Disable Names')
+  form
+    input(type='password' placeholder='New Password')
+    input(type='submit' value='Set Password')

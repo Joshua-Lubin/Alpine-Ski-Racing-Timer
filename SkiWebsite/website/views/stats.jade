@@ -1,0 +1,5 @@
+extends layout
+
+block content
+  div(class='stats')= 'Average Time: ' + average.minutes + ':' + average.seconds + '.' + average.milliseconds.toString().substr(0,3)
+  div(class='stats')= '# of Times: ' + count

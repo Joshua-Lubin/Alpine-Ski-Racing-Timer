@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  div(class='stats') Database Population
+  form(method='post' action='/populate')
+    input(placeholder='Seconds' name='time')
+    input(placeholder='Number' name='number')
+    input(type='submit' value='Populate')
