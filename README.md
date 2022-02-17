@@ -2,10 +2,9 @@
 
 ## System Architecture
 
-<img width=750 src="https://user-images.githubusercontent.com/90717831/153795193-1965a564-5203-4cbf-95af-d997cd457424.png">
-
 <img width=750 alt="System Architecture Diagram" src="https://user-images.githubusercontent.com/90717831/153794187-3a2d924e-e8b6-44ff-8e26-b49ccfc2ff9f.png">
 
+<img width=750 src="https://user-images.githubusercontent.com/90717831/153795193-1965a564-5203-4cbf-95af-d997cd457424.png">
 
 ## Top Raspberry Pi
 
